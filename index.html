@@ -21,31 +21,31 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-grow">
+      <div class="container conteiner-header">
         <nav class="header__main">
           <a href="./index.html" lang="en" class="logo">
             <span class="logo__web">Web</span
             ><span class="logo__studio">Studio</span></a
           >
           <ul class="utilited-ul nav">
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="./index.html" class="nav__link nav__link-active"
                 >Студія</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="./portfolio.html" target="_blank" class="nav__link"
                 >Портфоліо</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="" class="nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <ul class="contact contact-header utilited-ul">
-          <li class="contact_item">
+          <li class="contact__item">
             <a href=" mailto:info@devstudio.com" class="contact__link">
               <svg class="contact__mail-icon">
                 <use href="./image/symbol-defs.svg#icon-envelope"></use>
@@ -53,7 +53,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="contact-item">
+          <li class="contact__item">
             <a href="tel:+380961111111" class="contact__link">
               <svg class="contact__tel-icon">
                 <use href="./image/symbol-defs.svg#icon-smartphone"></use>
@@ -80,7 +80,7 @@
         <div class="container">
           <h2 class="section__title" hidden>особливості</h2>
           <ul class="utilited-ul benefits">
-            <li class="benefits-item">
+            <li class="benefits__item">
               <div class="benefits__icon">
                 <svg class="benefits__icon-size">
                   <use href="./image/symbol-defs.svg#icon-antenna"></use>
@@ -92,7 +92,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits__item">
               <div class="benefits__icon">
                 <svg class="benefits__icon-size">
                   <use href="./image/symbol-defs.svg#icon-clock"></use>
@@ -104,7 +104,7 @@
                 тягне у себе.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits__item">
               <div class="benefits__icon">
                 <svg class="benefits__icon-size">
                   <use href="./image/symbol-defs.svg#icon-diagram"></use>
@@ -115,7 +115,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits__item">
               <div class="benefits__icon">
                 <svg class="benefits__icon-size">
                   <use href="./image/symbol-defs.svg#icon-astronaut"></use>
@@ -131,11 +131,11 @@
         </div>
       </section>
       <!-- Чим ми займаємося -->
-      <section class="section direction">
+      <section class="section works">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
 
-          <ul class="utilited-ul works">
+          <ul class="utilited-ul works__list">
             <li class="works__item">
               <div class="works__wrapper">
                 <img
@@ -145,8 +145,8 @@
                   class="works__img"
                 />
 
-                <div class="overlay">
-                  <p class="overlay__text">Десктопні додатки</p>
+                <div class="works__overlay">
+                  <p class="works__overlay__text">Десктопні додатки</p>
                 </div>
               </div>
             </li>
@@ -159,8 +159,8 @@
                   class="works__img"
                 />
 
-                <div class="overlay">
-                  <p class="overlay__text">Мобільні додатки</p>
+                <div class="works__overlay">
+                  <p class="works__overlay__text">Мобільні додатки</p>
                 </div>
               </div>
             </li>
@@ -173,8 +173,8 @@
                   class="works__img"
                 />
 
-                <div class="overlay">
-                  <p class="overlay__text">Дизайнерські</p>
+                <div class="works__overlay">
+                  <p class="works__overlay__text">Дизайнерські</p>
                 </div>
               </div>
             </li>
@@ -183,22 +183,22 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="section our-team">
+      <section class="section section-team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
 
           <ul class="utilited-ul team">
-            <li class="team-li">
+            <li class="team__li">
               <img
                 src="./image/img.jpg"
                 width="270"
                 alt="Ігор Дем'яненко"
-                class="team-photo"
+                class="team__photo"
               />
 
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="team-text">Product Designer</p>
-              <ul class="team-social">
+              <h3 class="team__title">Ігор Дем'яненко</h3>
+              <p class="team__text">Product Designer</p>
+              <ul class="social-list">
                 <li class="social-li">
                   <a
                     class="social-link"
@@ -249,16 +249,16 @@
                 </li>
               </ul>
             </li>
-            <li class="team-li">
+            <li class="team__li">
               <img
                 src="./image/img1.jpg"
                 width="270"
                 alt="Ольга Рєпіна"
-                class="team-photo"
+                class="team__photo"
               />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="team-text">Frontend Developer</p>
-              <ul class="team-social">
+              <h3 class="team__title">Ольга Рєпіна</h3>
+              <p class="team__text">Frontend Developer</p>
+              <ul class="social-list">
                 <li class="social-li">
                   <a
                     class="social-link"
@@ -309,16 +309,16 @@
                 </li>
               </ul>
             </li>
-            <li class="team-li">
+            <li class="team__li">
               <img
                 src="./image/img2.jpg"
                 width="270"
                 alt="Микола Тарасов"
-                class="team-photo"
+                class="team__photo"
               />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p class="team-text">Marketing</p>
-              <ul class="team-social">
+              <h3 class="team__title">Микола Тарасов</h3>
+              <p class="team__text">Marketing</p>
+              <ul class="social-list">
                 <li class="social-li">
                   <a
                     class="social-link"
@@ -369,16 +369,16 @@
                 </li>
               </ul>
             </li>
-            <li class="team-li">
+            <li class="team__li">
               <img
                 src="./image/img3.jpg"
                 width="270"
                 alt="Михайло Єрмаков"
-                class="team-photo"
+                class="team__photo"
               />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="team-text">UI Designer</p>
-              <ul class="team-social">
+              <h3 class="team__title">Михайло Єрмаков</h3>
+              <p class="team__text">UI Designer</p>
+              <ul class="social-list">
                 <li class="social-li">
                   <a
                     class="social-link"

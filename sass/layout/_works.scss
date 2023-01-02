@@ -1,4 +1,4 @@
-.works {
+.works__list {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.overlay {
+.works__overlay {
   position: absolute;
   content: "";
   width: 370px;
@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.overlay__text {
+.works__overlay__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
