@@ -12,26 +12,26 @@
   letter-spacing: 0.03em;
   background-color: #ffffff;
   gap: 30px;
+}
 
-  &__title {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.benefits__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-    color: $secondary-text-color;
-  }
+  color: $secondary-text-color;
+}
 
-  &__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+.benefits__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 
-    color: $primery-text-color;
-  }
+  color: $primery-text-color;
 }
 .benefits__icon {
   display: flex;

@@ -244,6 +244,7 @@ a {
 .contact-footer:hover, .contact-footer:focus {
   color: #2196f3;
 }
+
 .contact-footer-item {
   margin-top: 9px;
 }
@@ -270,6 +271,9 @@ a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact__link:hover .contact__mail-icon, .contact__link:focus .contact__mail-icon {
+  fill: #2196f3;
+}
 
 .contact__tel-icon {
   fill: #757575;
@@ -280,14 +284,7 @@ a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contact__link:hover .contact__link-mail-ikon,
-.contact__link:focus .contact__link-mail-ikon {
-  fill: #2196f3;
-}
-
-.contact__link:hover .contact__link-telefon-ikon,
-.contact__link:focus .contact__link-telefon-ikon {
+.contact__link:hover .contact__tel-icon, .contact__link:focus .contact__tel-icon {
   fill: #2196f3;
 }
 
@@ -301,6 +298,16 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
+.hero__button {
+  padding: 10px 32px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .hero__title {
   margin-bottom: 30px;
   color: #ffffff;
@@ -312,14 +319,6 @@ a {
   width: 696px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.hero__button {
-  padding: 10px 32px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
 }
 
 .feautres {
@@ -341,6 +340,7 @@ a {
   background-color: #ffffff;
   gap: 30px;
 }
+
 .benefits__title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -350,6 +350,7 @@ a {
   text-transform: uppercase;
   color: #212121;
 }
+
 .benefits__text {
   font-weight: 400;
   font-size: 14px;
@@ -390,6 +391,7 @@ a {
           justify-content: center;
   gap: 30px;
 }
+
 .works__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,6 +403,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .works__wrapper {
   position: relative;
 }
@@ -422,6 +425,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .overlay__text {
   font-weight: 700;
   font-size: 14px;
@@ -442,15 +446,18 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+
 .team-photo {
   display: block;
 }
+
 .team-li {
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -461,6 +468,7 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .team-text {
   text-align: center;
   margin-bottom: 30px;
@@ -492,6 +500,7 @@ a {
   display: flex;
   gap: 10px;
 }
+
 .social-li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -526,9 +535,7 @@ a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-link:hover .social-ikon-item,
-.social-link:focus .social-ikon-item {
+.social-link:hover .social-ikon-item, .social-link:focus .social-ikon-item {
   fill: #ffffff;
 }
 
@@ -590,9 +597,7 @@ a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-item:focus .client-ikon-item,
-.clients-item:hover .client-ikon-item {
+.clients-item:focus .client-ikon-item, .clients-item:hover .client-ikon-item {
   fill: #2196f3;
 }
 
@@ -821,9 +826,7 @@ a {
   width: 18px;
   height: 18px;
 }
-
-.close-btn:hover .close-icon,
-.close-btn:focus .close-icon {
+.close-btn:hover .close-icon, .close-btn:focus .close-icon {
   fill: #2196f3;
 }
 
@@ -847,15 +850,7 @@ a {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.request-title {
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
+
 .request-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -867,6 +862,7 @@ a {
   margin-bottom: 10px;
   position: relative;
 }
+
 .request-input {
   display: block;
   height: 40px;
@@ -879,6 +875,16 @@ a {
 }
 .request-input:focus {
   outline-color: #2196f3;
+}
+
+.request-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .input-icon {
@@ -994,12 +1000,6 @@ a {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.buttons-portfolio .button:hover,
-.buttons-portfolio .button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
 .buttons-portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1014,6 +1014,10 @@ a {
   -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
+.buttons-portfolio .button:hover, .buttons-portfolio .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
 
 .portfolio {
   display: -webkit-box;
@@ -1023,12 +1027,7 @@ a {
       flex-wrap: wrap;
   gap: 30px 30px;
 }
-.portfolio-element {
-  max-width: calc((100% - 60px) / 3);
-  border-bottom: 1px solid #eeeeee;
-  display: block;
-  cursor: pointer;
-}
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -1040,6 +1039,13 @@ a {
   border-bottom: 1px solid #eeeeee;
   padding: 24px 20px;
   width: 370px;
+}
+
+.portfolio-element {
+  max-width: calc((100% - 60px) / 3);
+  border-bottom: 1px solid #eeeeee;
+  display: block;
+  cursor: pointer;
 }
 
 .portfolio .title {
@@ -1076,6 +1082,7 @@ a {
   transition: transform 550ms cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: transform 550ms cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 550ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 .portfolio-before-text {
   color: #ffffff;
   font-weight: 400;

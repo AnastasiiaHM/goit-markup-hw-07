@@ -39,12 +39,10 @@
   &:focus {
     color: $active-color;
   }
-
-  &-item {
-    margin-top: 9px;
-  }
 }
-
+.contact-footer-item {
+  margin-top: 9px;
+}
 .contact-header {
   display: flex;
   justify-content: center;
@@ -59,6 +57,11 @@
   width: 18px;
   height: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .contact__link:hover &,
+  .contact__link:focus & {
+    fill: $active-color;
+  }
 }
 .contact__tel-icon {
   fill: $primery-text-color;
@@ -67,14 +70,9 @@
   width: 16px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact__link:hover .contact__link-mail-ikon,
-.contact__link:focus .contact__link-mail-ikon {
-  fill: $active-color;
-}
-
-.contact__link:hover .contact__link-telefon-ikon,
-.contact__link:focus .contact__link-telefon-ikon {
-  fill: $active-color;
+  .contact__link:hover &,
+  .contact__link:focus & {
+    fill: $active-color;
+  }
 }

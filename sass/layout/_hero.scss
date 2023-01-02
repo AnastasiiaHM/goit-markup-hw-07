@@ -13,7 +13,17 @@
   padding-top: 200px;
   padding-bottom: 200px;
 
-  &__title {
+
+}
+ .hero__button {
+    padding: 10px 32px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: $active-color;
+  }
+   .hero__title {
     margin-bottom: 30px;
     color: #ffffff;
     font-weight: 900;
@@ -26,13 +36,3 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-
-  &__button {
-    padding: 10px 32px;
-    font-weight: 700;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    background-color: $active-color;
-  }
-}

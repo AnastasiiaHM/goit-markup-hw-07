@@ -3,16 +3,16 @@
   align-self: center;
   justify-content: center;
   gap: 30px;
+}
 
-  &__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.works__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  &__wrapper {
-    position: relative;
-  }
+.works__wrapper {
+  position: relative;
 }
 
 .overlay {
@@ -25,15 +25,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  &__text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.overlay__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-    color: $primery-bg-color;
-  }
+  color: $primery-bg-color;
 }
